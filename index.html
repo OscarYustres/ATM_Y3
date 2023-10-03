@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./isset/styles.css">
+</head>
+<body>
+
+    <!-- COLUMNA IZQUIERDA - BIENVENIDA  -->
+    <main class="container-fluid" id="inicio-usuarios">
+        <section class="ElementoPadre row d-flex text-center"> <!--pt es padding top y puede ser de 0-5-->
+            <div class="col-12 col-md-12 text-center  justify-content-center height d-flex align-items-center"> <!--col-md-6 nos indica que ocupará los 12 espacios del grid de row-->
+                <div >
+                <h1 class="color:green-500">BIENVENIDO A SU CAJERO AUTOMATICO.</h1>
+                
+                </div>
+            </div>
+
+            <!-- COLUMNA DERECHA - BOTONES DE USUARIO -->
+            <div class="col-12 col-md-12 text-center justify-content-center my-auto text-white p-3 height d-flex align-items-center img-derecha" id="col-derecha">
+                
+                <div class="container-fluid d-flex justify-content-center p-0">
+                <p" style="font-size: 20px;color:#F0E24F"><b>Elija la cuenta a la que desea ingresar:</b></p>
+
+                <button type="button" class="btn btn-danger Cuenta1">Cuenta1</button>
+
+                <button type="button" class="btn btn-danger Cuenta2">Cuenta2</button>
+
+                <button type="button" class="btn btn-danger Cuenta3">Cuenta3</button>
+                </div>    
+            </div>
+        </section>
+    </main>
+
+    <!-- VENTANA 2 BIENVENIDA - COLUMNA IZQUIERDA -->
+    <main class="container-fluid" id="operaciones">
+        <section class="ElementoPadre row d-flex text-center"></section>
+        <!-- <section class="row d-flex"> -->
+            <div class="col-12 col-md-12 text-center height d-flex align-items-center justify-content-center">
+                <div>
+                    <h1 id="usuario">¡HOLA!</h1>
+                    <h2>Elije la operación que deseas hacer</h2>
+                </div>
+            </div>
+
+    <!-- VENTANA 2 - COLUMNA DERECHA - BOTON DE OPCIONES -->
+    <div class="col-12 col-md-12 text-center justify-content-center my-auto text-white p-3 height d-flex align-items-center img-derecha" id="col-operaciones">
+                
+        <div class="container-fluid d-flex justify-content-center p-10">
+
+            <button type="button" class="btn consultar btn-info color-letra c-saldo w-25 h-25">Consultar saldo</button>
+    
+            <button type="button" class="btn ingresar btn-success color-letra in-monto" id="boton-opc">Ingresar Monto</button>
+                
+            <button type="button" class="btn retirar btn-warning  color-letra re-monto" >Retirar Monto</button>
+                
+            <button type="button" class="btn btn-danger color-letra" id="salir" id="boton-opc" onclick="cerrarSesion()">SALIR</button>
+            </div>
+        </div>
+        </section>
+    </main>
+    
+    <script src="./isset/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- <script src="js/sweetalert.js"></script>  -->
+        <!-- <script src="./isset/ js/sweetalert.js"></script> -->
+</body>
+</html>

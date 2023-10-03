@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    color: #068600;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label, input {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  /* button {
+    display: block;
+    margin: 0 auto;
+    margin: 5px;
+}  */
+
+button {
+  font-weight: bolder;
+  background-color: white;
+  border: none;
+  color: rgb(35,59,110);
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 230px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+  
+  .img-derecha{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(216, 224, 241, 0.3)), url("img/dolares.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.color-letra{
+    text-decoration: none;
+    color: white;
+}
+
+.height{
+    height: 50vh;
+}
